@@ -1,5 +1,23 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.0.0",
+  "name": "Armada.net",
+  "authors": ["Cerebro <cerebro@gamedesire.eu>"],
+  "title": ".NET utilities to integrate with Armada Platform",
+  "description": "This library contains utilities helpful during development of Armada based microservices derived from 'microservice_dotnet' image. Most basic usage scenario is method of accessing configuration delivered via Hermes by using Armada.Hermes class.",
+  "copyright": "GameDesire Ltd.",
+  "packOptions": {
+    "tags": ["armada", "microservices", "utilities", "armadaplatform"],
+    "requireLicenseAcceptance": false,
+    "projectUrl": "https://github.com/armadaplatform/Armada.NET",
+    "iconUrl": "https://github.com/armadaplatform/Armada.NET/blob/master/assets/Armada_logo.png",
+    "licenseUrl": "https://github.com/armadaplatform/Armada.NET/blob/master/LICENSE",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/armadaplatform/Armada.NET"
+    },
+    "owners": ["GameDesire"],
+    "summary": "This library contains utilities helpful during development of Armada based microservices derived from 'microservice_dotnet' image."
+  },
   "buildOptions": {
     "debugType": "portable"
   },
