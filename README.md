@@ -1,7 +1,24 @@
 # Hermes (.NET)
+
 Configuration manager for .NET services.
 This module can be used to find and load configuration files based on `MICROSERVICE_ENV` (--env) environment variable.
 Hermes looks for specified config file in entire CONFIG_PATH and loads an appropriate one.
+
+## Installation
+
+To install Armada.net and add it to your project simply use Nuget Manager if using Visual Studio and type:
+
+```posh
+Install-Package Armada.net 
+```
+
+Or add dependency to your `project.json` if using .NET Core (VSCode or CLI):
+
+```json
+  "dependencies": {
+    "Armada.net": "1.0.0"
+  }
+```
 
 ## Usage
 
