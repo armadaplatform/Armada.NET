@@ -31,7 +31,7 @@ using Armada;
 Retrieve configuration specific to current environment (let's assume configuration file is named `config.json`):
 
 ```csharp
-var mainConfig = Hermes.GetConfigFilePath("config.json");
+var mainConfig = Hermes.GetConfig("config.json");
 ```
 
 For instance `config.json` could be structured as follows:
